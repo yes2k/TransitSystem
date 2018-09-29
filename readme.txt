@@ -78,41 +78,6 @@ Admin Users
 
 ================================
 
-Events must be inputted into the text file in a specific format, as follows.
-
----
-
-Enter station - enter; card id; cardmachine id
-
-Exit station - exit; card id; cardmachine id
-
-Add User - addUser; userName; userEmail
-
-User add card - addNewCard; userEmail
-
-User remove card - removeCard; cardID; userEmail
-
-User add balance to card - addBalance; cardID; amount
-
-User change name - changeName; userEmail; newName
-
-User view recent trips - viewRecentTrips; userEmail
-
-Admin user views report - adminView; adminEmail;
-
-Exit program - exitProgram;
-
-
-== Lines in Events.txt ==
-
-For e.g, if HAL was to enter christie, you would have the following line in events.txt:
-
-enter; 0; 1000
-
-This may seem slightly cumbersome but the way the system is currently set up, the user's card would tap onto a
-card machine at christie station.
-
-
 == Handling Errors ==
 
 If a user double enters, or double exits, the user is charged $6. For e.g., if a user enters Christie,
@@ -120,10 +85,4 @@ forgets to tap off, and taps on, on a bus, they would be charged $6.
 
 This is similar to current transit systems. In a case of malfunctioning machines, users can always contact
 customer support for refunds!
-
-
-=== End of Day ==
-
-The program must be manually exited at the end of the day with the exit command. Upon exiting, a daily report of the
-number of stations reached, and total fare collected is printed to screen.
 
