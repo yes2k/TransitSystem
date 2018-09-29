@@ -1,0 +1,61 @@
+#mainPane {
+    -fx-background-image: url('../StaticResources/background_screen.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+#changeAccountInfo {
+    -fx-background-image: url('../StaticResources/AdminStaticResources/settings_icon.png');
+    -fx-background-size: 150px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-radius: 20;
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,1) , 20,0,0,1 );
+    -fx-border-radius: 20;
+    -fx-font-family: "sans-serif";
+    -fx-font-size: 16px;
+    -fx-font-style: normal;
+    -fx-font-weight: bold;
+}
+
+#manageUsers {
+    -fx-background-image: url('../StaticResources/AdminStaticResources/users_icon.png');
+    -fx-background-size: 150px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-radius: 20;
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,1) , 20,0,0,1 );
+    -fx-border-radius: 20;
+    -fx-font-family: "sans-serif";
+    -fx-font-size: 16px;
+    -fx-font-style: normal;
+    -fx-font-weight: bold;
+}
+
+#viewStatistics {
+    -fx-background-image: url('../StaticResources/AdminStaticResources/stats_icon.png');
+    -fx-background-size: 150px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-radius: 20;
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,1) , 20,0,0,1 );
+    -fx-border-radius: 20;
+    -fx-font-family: "sans-serif";
+    -fx-font-size: 16px;
+    -fx-font-style: normal;
+    -fx-font-weight: bold;
+}
+
+#backButton {
+    -fx-font-family: "sans-serif";
+    -fx-font-size: 14px;
+    -fx-font-style: normal;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}

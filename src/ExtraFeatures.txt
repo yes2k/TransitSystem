@@ -1,0 +1,6 @@
+Graphical way to represent a users fare, like a line graph
+Admin users should be able to delete or ban users
+Users should be able gift money to other users
+Make UI look really good
+
+Fix: enter bus/subway exit subway/bus

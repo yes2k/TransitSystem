@@ -1,0 +1,3 @@
+addScreen("/GUI/MainScreen/MainScene.fxml", "Main Screen");
+            addScreen("/GUI/TapScreen/TapScene.fxml", "Tap Screen");
+            addScreen("/GUI/AdminLoginScreen/AdminLoginScene.fxml", "Admin Login Screen");

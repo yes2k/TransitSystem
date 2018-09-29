@@ -1,0 +1,4 @@
+F: User GUI and Tap menu (Change account info, Manage Cards)
+A: Admin GUI (Admin Login, Manage Users, View Stats)
+S: Admin GUI, fix double tap nonsense
+Y: User GUI, add fare to trip, backend, (View Trip History, Stats)

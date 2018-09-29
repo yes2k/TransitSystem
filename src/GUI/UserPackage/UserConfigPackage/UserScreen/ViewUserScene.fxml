@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../../../StyleSheets/userMainScreen.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.UserPackage.UserConfigPackage.UserScreen.ViewUserScreenController">
+   <children>
+      <Button id="backButton" fx:id="backButton" layoutX="33.0" layoutY="22.0" mnemonicParsing="false" onAction="#handleBackButton" text="Back" />
+      <Button id="manageCardsButton" fx:id="manageCardsButton" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="64.0" layoutY="59.0" mnemonicParsing="false" onAction="#handleManageCardsButton" prefHeight="150.0" prefWidth="150.0" text="Manage Cards" textAlignment="CENTER" wrapText="true">
+         <padding>
+            <Insets top="20.0" />
+         </padding></Button>
+      <Button id="giftMoneyButton" fx:id="giftMoneyButton" alignment="TOP_CENTER" layoutX="413.0" layoutY="59.0" mnemonicParsing="false" onAction="#handleGiftMoneyButton" prefHeight="150.0" prefWidth="150.0" text="Manage Gifting" textAlignment="CENTER" wrapText="true">
+         <padding>
+            <Insets top="20.0" />
+         </padding></Button>
+      <Button id="viewStatsButton" fx:id="viewStatsButton" alignment="TOP_CENTER" layoutX="139.0" layoutY="236.0" mnemonicParsing="false" onAction="#handleViewStatsButton" prefHeight="150.0" prefWidth="150.0" text="View Stats" wrapText="true">
+         <padding>
+            <Insets top="20.0" />
+         </padding></Button>
+      <Button id="changeInfoButton" fx:id="changeUserInfoButton" alignment="TOP_CENTER" layoutX="314.0" layoutY="236.0" mnemonicParsing="false" onAction="#handleChangeUserInfoButton" prefHeight="150.0" prefWidth="150.0" text="Change User Info" textAlignment="CENTER" wrapText="true">
+         <padding>
+            <Insets top="20.0" />
+         </padding></Button>
+      <Label fx:id="userName" layoutX="403.0" layoutY="22.0" prefHeight="19.0" prefWidth="150.0" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Button id="viewHistoryButton" fx:id="viewHistoryButton" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="239.0" layoutY="59.0" mnemonicParsing="false" onAction="#handleViewHistoryButton" prefHeight="150.0" prefWidth="150.0" text="View Trip History" textAlignment="CENTER" wrapText="true">
+         <padding>
+            <Insets top="20.0" />
+         </padding>
+      </Button>
+   </children>
+</Pane>

@@ -1,0 +1,6 @@
+.root {
+    -fx-background-image: url('../StaticResources/background_screen.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}

@@ -1,0 +1,73 @@
+.button:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+
+.button:pressed {
+    -fx-scale-y: 0.9;
+    -fx-scale-x: 0.9;
+}
+
+#mainPane {
+    -fx-background-image: url('../StaticResources/background_screen.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+#usersButton {
+    -fx-background-image: url('../StaticResources/HomeScreenStaticResources/users_icon.png');
+    -fx-background-size: 100px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-radius: 20;
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,1) , 20,0,0,1 );
+    -fx-border-radius: 20;
+    -fx-font-family: "sans-serif";
+    -fx-font-size: 28px;
+    -fx-font-style: normal;
+    -fx-font-weight: bold;
+}
+
+#tapButton {
+    -fx-background-image: url('../StaticResources/HomeScreenStaticResources/train_icon.png');
+    -fx-background-size: 100px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-radius: 20;
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,1) , 20,0,0,1 );
+    -fx-border-radius: 20;
+    -fx-background-position: center center;
+    -fx-font-family: "sans-serif";
+    -fx-font-size: 28px;
+    -fx-font-style: normal;
+    -fx-font-weight: bold;
+}
+
+#adminButton {
+   -fx-background-image: url('../StaticResources/HomeScreenStaticResources/admin_icon.png');
+   -fx-background-size: 100px;
+   -fx-background-repeat: no-repeat;
+   -fx-background-position: center center;
+   -fx-background-radius: 20;
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,1) , 20,0,0,1 );
+    -fx-border-radius: 20;
+    -fx-background-position: center center;
+    -fx-font-family: "sans-serif";
+    -fx-font-size: 28px;
+    -fx-font-style: normal;
+    -fx-font-weight: bold;
+}
+
+#backButton {
+    -fx-font-family: "sans-serif";
+    -fx-font-size: 14px;
+    -fx-font-style: normal;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}

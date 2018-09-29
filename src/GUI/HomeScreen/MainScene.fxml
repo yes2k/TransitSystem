@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../StyleSheets/mainScreen.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.HomeScreen.MainSceneController">
+   <children>
+      <Button id="usersButton" fx:id="viewUserButton" layoutX="40.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleUserButton" prefHeight="250.0" prefWidth="150.0" text="Users">
+         <padding>
+            <Insets bottom="100.0" />
+         </padding>
+      </Button>
+      <Button id="tapButton" fx:id="tapButton" layoutX="225.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleTapButton" prefHeight="250.0" prefWidth="150.0" text="Tap">
+         <padding>
+            <Insets bottom="100.0" />
+         </padding></Button>
+      <Button id="adminButton" fx:id="viewAdminUser" layoutX="410.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleAdminButton" prefHeight="250.0" prefWidth="150.0" text="Admin">
+         <padding>
+            <Insets bottom="100.0" />
+         </padding></Button>
+   </children>
+</Pane>

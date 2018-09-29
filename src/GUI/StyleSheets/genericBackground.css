@@ -1,0 +1,31 @@
+.root {
+    -fx-background-image: url('../StaticResources/background_screen.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+#regButton {
+    -fx-font-family: "sans-serif";
+    -fx-font-size: 14px;
+    -fx-font-style: normal;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-background-color: rgb(91, 87, 213);
+    -fx-text-fill: white;
+}
+
+#backButton {
+    -fx-font-family: "sans-serif";
+    -fx-font-size: 14px;
+    -fx-font-style: normal;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+#rectangle {
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,1) , 20,0,0,1 );
+}
+
