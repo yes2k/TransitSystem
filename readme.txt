@@ -1,9 +1,3 @@
-Running our program:
-
-Please read the following system set up carefully.
-Then proceed to write in arguments into the events.txt file provided, in the format specified below.
-Then run our program.
-
 == Our System ==
 
 Subway Stations
